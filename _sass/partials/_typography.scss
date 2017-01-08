@@ -11,7 +11,7 @@ body {
     font-family: 'Libre Baskerville', serif;
   }
 }
-h1, h2, h3, h4, h5, h6, label, .logo {
+h1, h2, h3, h4, h5, h6, label, .name, .logo {
   font-family: sans-serif;
   font-weight: bold;
   line-height: 1.2;
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, label, .logo {
   }
 }
 
-h1, .logo {font-size: 2.441em;}
+h1 {font-size: 2.441em;}
 h2 {font-size: 1.953em;}
 h3 {font-size: 1.563em;}
 h4 {font-size: 1.25em;}
