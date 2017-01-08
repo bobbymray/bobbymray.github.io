@@ -1,13 +1,20 @@
 body {
   //background-color: $c-bg-1;
   color: $c-f-1;
+  background: -webkit-repeating-linear-gradient(
+    138deg,
+    lighten(#BAD3FF, 90%),
+    lighten(#BAD3FF, 10%) 1px,
+    #FDFDFF 60px,
+    #FDFDFF 80px
+  );
   background: repeating-linear-gradient(
-  -48deg,
-  lighten(#BAD3FF, 90%),
-  lighten(#BAD3FF, 10%) 1px,
-  #FDFDFF 60px,
-  #FDFDFF 80px
-);
+    -48deg,
+    lighten(#BAD3FF, 90%),
+    lighten(#BAD3FF, 10%) 1px,
+    #FDFDFF 60px,
+    #FDFDFF 80px
+  );
 }
 
 p + * {

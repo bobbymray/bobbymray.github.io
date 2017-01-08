@@ -4,6 +4,7 @@
   width: 100%;
   font-size: 1em;
   font-size: 5vw;
-  filter: sepia(100%) hue-rotate(180deg);
+  -webkit-filter: sepia(100%) hue-rotate(180deg);
+          filter: sepia(100%) hue-rotate(180deg);
 }
 
