@@ -5,6 +5,6 @@ title_separator          : "-"
 name                     : "Bobby M Ray"
 description              : "Bobby M Ray's internet place for web design and ideas"
 url                      : # the base hostname & protocol for your site e.g. "https://bobbymray.github.io"
-baseurl                  : "/bobbymray"
-repository               : "bobbymray/bobbymray"
+baseurl                  : ""
+repository               : "bobbymray/bobbymray.github.io"
 permalink                : pretty
