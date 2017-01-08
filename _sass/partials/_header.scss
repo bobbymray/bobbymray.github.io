@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  color: yellow;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-size: 5vw;
+  font-weight: 900;
+  margin: 1em;
+}
+.name span {
+  background-color: #111;
+  display: block;
+  float: left;
+  line-height: 1.4em;
+  padding: 0;
+  margin: .12em;
+  width: 1.4em;
+  height: 1.4em;
+  text-align: center;
+  vertical-align: top;
+}
+@-moz-document url-prefix() {
+  .name span {
+    line-height: 1.5em;
+  }
+}
+.name i {
+  font-style: normal;
+}
+

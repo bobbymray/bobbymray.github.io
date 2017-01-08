@@ -1,0 +1,10 @@
+# Site Settings
+locale                   : "en"
+title                    : "Bobby M Ray"
+title_separator          : "-"
+name                     : "Bobby M Ray"
+description              : "Bobby M Ray's internet place for web design and ideas"
+url                      : # the base hostname & protocol for your site e.g. "https://bobbymray.github.io"
+baseurl                  : "/bobbymray"
+repository               : "bobbymray/bobbymray"
+permalink                : pretty
