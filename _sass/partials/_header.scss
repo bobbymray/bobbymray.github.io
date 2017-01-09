@@ -1,17 +1,14 @@
 header {
   margin-bottom: -1.5em;
   position: relative;
+  text-align: right;
   z-index: 2;
 }
 .name {
-  background-color: #FDFDFF; 
-  border-top-left-radius: .2em;
   color: lighten(#BAD3FF, 10%);
   display: inline-block;
   font-weight: 900;
-  margin: .5em .5em 0;
-  padding: .5em;
-  box-shadow: -1px -1px 1px lighten(#BAD3FF, 8%);
+  padding: .8em;
 }
 .name span {
   background-color: #111;
@@ -27,4 +24,21 @@ header {
 .name i {
   font-style: normal;
 }
+.name::after {
+  background-color: lighten(#BAD3FF, 10%);
+  box-shadow: 0 1px 1px #2c3e50;
+  color: #2c3e50;
+  content: 'affordable furshlugginer';
+  display: block;
+  font-family: serif;
+  font-size: .8em;
+  font-weight: normal;
+  margin-top: .3em;
+  opacity: .9;
+  padding: .2em 0;
+  text-align: center;
 
+  .fonts-loaded & {
+    font-family: 'Libre Baskerville', serif;
+  }
+}
