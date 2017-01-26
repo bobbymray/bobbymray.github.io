@@ -28,25 +28,13 @@ h1 {
 }
 
 section {
-  padding: 2em 0 0 8em;
+  background-color: floralwhite;
+  border-top: 4px solid lighten(#BAD3FF, 10%);
+  border-bottom: 4px solid lighten(#BAD3FF, 10%);
+  padding: 2em;
 
-  h1 {
-    background-color: darken(#BAD3FF, 70%);
-    color: lighten(#BAD3FF, 90%);
-    line-height: 1;
-    margin: 0;
-    padding: .6em 0 .4em .6em;
-    position: relative;
-
-    &:before {
-      content: '';
-      border-left: 3em solid transparent;
-      border-top: 3em solid lighten(#BAD3FF, 8%);
-      border-top: 3em solid #BAD3FF;
-      opacity: .2;
-      position: absolute;
-      left: -2.6em;
-      top: 0;
-    }
+  p {
+    margin: auto;
+    max-width: 34em;
   }
 }
