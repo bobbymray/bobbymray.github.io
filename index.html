@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bobby M Ray</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="header-year">
+        <p>World wide web
+          <span id="year">2018</span>
+        </p>
+      </div>
+      <div class="header-main">
+        <h1>Bobby M Ray</h1>
+      </div>
+      <div class="header-tag">
+        <p>Look who&rsquo;s here</p>
+      </div>
+    </header>
+
+    <main>
+      <img src="horse-exam.jpg">
+    </main>
+
+  </div>
+
+  <script type="text/javascript">
+    (function () {
+      var yearSpan = document.getElementById("year");
+      var currentYear = (new Date()).getFullYear();
+      yearSpan.textContent = currentYear;
+    })();
+  </script>
+
+</body>
+
+</html>
